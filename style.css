@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(221, 107, 107);
+
+}
+
+body *{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 30px;
+}
+
+#box{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+
+#res{
+    text-align: center;
+    padding: 5px;
+}
+
+
+#btnInput{
+    display: flex;
+    margin: 10px;
+}
